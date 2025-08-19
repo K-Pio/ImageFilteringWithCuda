@@ -1,17 +1,27 @@
 # Image Filtering With Cuda
 Program to filtering/blurring images. It works with CUDA kernels to perform parallel filtering calculations.  
-Implemented: gausian blur, sobel operators.  
-Works in command line and input-json mode.
+Support: **gausian blur**, **sobel operators**.  
+Runs in **command-line mode** and **JSON configuration mode**.
 ---
 ## Technologies:
-- C++, CUDA, VS
-- CUDA, OpenCV
+- **Languages:** C++17, CUDA C
+- **Libs:** OpenCV 4.x
+- **Environments:** Visual Studio (Windows) or CMake (cross‑platform)
 ---
 ## Requirements
-- CUDA driven device,
-- OpenCV
+- NVIDIA GPU with CUDA support
+- **CUDA Toolkit** compatible with your GPU driver
+- **OpenCV** 4.x (libraries + headers)
+- C++17‑capable compiler
 ---
 ## Installation
-- run VS solution
+### Windows (Visual Studio)
+
+1. Open the `.sln` solution file in Visual Studio.
+2. Configure include/lib paths for OpenCV.
+3. Build in Release/x64 mode.
+
+### Linux (CMAKE)
 - build code on your own
+- lmao
 ---
